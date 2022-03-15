@@ -12,11 +12,25 @@
   --dark-navy: #3B4050;
   --cobalt: #6F737F;
   --white: #FFFFFF;
-  --gold: #A59678
+  --gold: #A59678;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   /* font-family: 'Oswald', sans-serif; */
   color: var(--black)
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
