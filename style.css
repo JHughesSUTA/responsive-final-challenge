@@ -1,0 +1,22 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* font-family: 'Oswald', sans-serif; */
+  --black: #2E323F;
+  --dark-navy: #3B4050;
+  --cobalt: #6F737F;
+  --white: #FFFFFF;
+  --gold: #A59678
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
+  color: var(--black)
+}
