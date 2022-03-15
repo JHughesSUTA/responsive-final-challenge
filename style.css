@@ -8,7 +8,7 @@
 
 :root {
   /* font-family: 'Oswald', sans-serif; */
-  --black: #2E323F;
+  --midnight: #2E323F;
   --dark-navy: #3B4050;
   --cobalt: #6F737F;
   --white: #FFFFFF;
@@ -18,7 +18,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   /* font-family: 'Oswald', sans-serif; */
-  color: var(--black)
+  color: black;
 }
 
 img {
@@ -33,4 +33,47 @@ ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.nav {
+  background-color: var(--midnight);
+}
+
+.nav__link {
+  color: var(--white)
+}
+
+.section-1 {
+  background-color: var(--dark-navy);
+  color: var(--white);
+}
+
+.section-2 {
+  background-color: rgb(240, 240, 239);
+}
+
+.section-2__headline {
+  color: var(--gold);
+}
+
+.section-3__headline {
+  color: var(--gold);
+}
+
+.section-3__content-box {
+  background-color: var(--dark-navy);
+  color: var(--white)
+}
+
+.footer {
+  background-color: var(--dark-navy);
+  color: var(--white);
+}
+
+.footer__link {
+  color: var(--white);
+}
+
+.footer__col__header {
+  color: var(--gold)
 }
