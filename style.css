@@ -35,8 +35,25 @@ ul, li {
   list-style: none;
 }
 
+.container {
+  margin: 0 2.5em;
+}
+
+.section-content {
+padding: 5em 0;
+}
+
 .nav {
   background-color: var(--midnight);
+  text-align: center;
+}
+
+.nav__list {
+  padding: 2em 0;
+}
+
+.nav__item {
+  padding: .8em;
 }
 
 .nav__link {
@@ -48,12 +65,26 @@ ul, li {
   color: var(--white);
 }
 
+.section-1__text {
+  padding-top: 2.3em;
+  padding-bottom: 1em;
+}
+
 .section-2 {
   background-color: rgb(240, 240, 239);
+  text-align: center;
+}
+
+.section-2__col + .section-2__col {
+  padding-top: 2em;
 }
 
 .section-2__headline {
   color: var(--gold);
+}
+
+.section-2__content {
+  padding-top: 1em;
 }
 
 .section-3__headline {
@@ -62,7 +93,24 @@ ul, li {
 
 .section-3__content-box {
   background-color: var(--dark-navy);
-  color: var(--white)
+  color: var(--white);
+  padding: 1.5em;
+  text-align: center;
+}
+
+.section-3__content-box:nth-child(2) {
+  margin: 1em 0;
+}
+
+.section-3__content-box {
+  background-color: var(--dark-navy);
+  color: var(--white);
+  padding: 1.5em;
+  text-align: center;
+}
+
+.section-3__content-box__text {
+  padding-top: 1.5em;
 }
 
 .footer {
