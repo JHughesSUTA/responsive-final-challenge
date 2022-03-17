@@ -37,6 +37,7 @@ ul, li {
 
 .container {
   margin: 0 2.5em;
+  max-width: 1200px;
 }
 
 .section-content {
@@ -189,4 +190,70 @@ h5 {
 
 .footer__col__header {
   color: var(--gold)
+}
+
+
+@media (min-width: 700px) {
+  /* .flex-row {
+    display: flex;
+  } */
+
+  .flex-row--a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav__list {
+    display: flex;
+  }
+
+  .section-2__col {
+    width: 30%;
+  }
+
+  .section-2__col + .section-2__col {
+    padding-top: 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 5.625rem;
+  }
+  .flex-row {
+    display: flex;
+  }
+
+  .flex-row--between {
+    justify-content: space-between;
+  }
+
+  .section-1__col {
+    width: 45%;
+  }
+
+  .section-1__col + .section-1__col {
+    padding-left: 2em;
+  }
+
+  .section-3__col--a {
+    width: 58%;
+  }
+
+  .section-3__col--b {
+    width: 30%;
+  }
+
+  .section-4__col--a {
+    width: 45%;
+    margin-right: 8em;
+    text-align: left;
+  }
+
+  .section-4__col--b {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+  }
 }

@@ -13,20 +13,19 @@
 </head>
 <body>
   <nav class="nav">
-    <div class="container flex-row">
+    <div class="container flex-row--a">
       <div class="nav__col">
         <a class="logo" href="#">
           <img src="img/logo.svg" alt="conquering responsive layouts">
-      </a>
+        </a>
       </div>
-        <ul class="nav__list">
-          <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">ABOUT</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">CONTACT</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">SIGN IN</a></li>
-          <li class="nav__item"><a href="#" class="nav__link link--button">SIGN UP</a></li>
-        </ul>
-      <div class="nav__col"></div>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#" class="nav__link">HOME</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">ABOUT</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">CONTACT</a></li>
+        <li class="nav__item"><a href="#" class="nav__link">SIGN IN</a></li>
+        <li class="nav__item"><a href="#" class="nav__link link--button">SIGN UP</a></li>
+      </ul>
     </div>
   </nav>
   <section class="section-1">
@@ -41,7 +40,7 @@
     </div>
   </section>
   <section class="section-2 ">
-    <div class="container flex-row section-content">
+    <div class="container flex-row--a section-content">
       <div class="section-2__col">
         <h3 class="section-2__headline">Mobile-first</h3>
         <p class="section-2__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -57,14 +56,14 @@
     </div>
   </section>
   <section class="section-3">
-    <div class="container flex-row section-content">
-      <div class="section-3__col">
+    <div class="container flex-row flex-row--between section-content">
+      <div class="section-3__col section-3__col--a">
         <h2 class="section-3__headline">It doesn't have to be so hard</h2>
         <p class="section-3__text">Lorem ipsum dolo sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
         <image class="section-3__image" src="img/image.jpeg" alt="image of graphics"></image>
         <p class="section-3__text">Lorem ipsum dolo sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       </div>
-      <div class="section-3__col">
+      <div class="section-3__col section-3__col--b">
         <div class="section-3__content-box">
           <h3 class="section-3__content-box__headline">Break it down</h3>
           <p class="section-3__content-box__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -89,30 +88,32 @@
           <p class="footer__col__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad miniim veniam.</p>
         </div>
         <div class="section-4__col--b">
-          <h5 class="footer__col__header">Getting around</h5>
-          <ul class="footer__list">
-            <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">About</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
-          </ul>
-        </div>
-        <div class="section-4__col--b">
-          <h5 class="footer__col__header">Other things</h5>
-          <ul class="footer__list">
-            <li class="footer__item"><a href="#" class="footer__link">Lorem Ipsum</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">dolor</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">sit amet</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">consectetur</a></li>
-          </ul>
-        </div>
-        <div class="section-4__col--b">
-          <h5 class="footer__col__header">And more</h5>
-          <ul class="footer__list">
-            <li class="footer__item"><a href="#" class="footer__link">Lorem ipsum</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">dolor</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">sit amet</a></li>
-            <li class="footer__item"><a href="#" class="footer__link">consectetur</a></li>
-          </ul>
+          <div class="section-4__col--b__sub">
+            <h5 class="footer__col__header">Getting around</h5>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#" class="footer__link">Home</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">About</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+            </ul>
+          </div>
+          <div class="section-4__col--b__sub">
+            <h5 class="footer__col__header">Other things</h5>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#" class="footer__link">Lorem Ipsum</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">dolor</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">sit amet</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">consectetur</a></li>
+            </ul>
+          </div>
+          <div class="section-4__col--b__sub">
+            <h5 class="footer__col__header">And more</h5>
+            <ul class="footer__list">
+              <li class="footer__item"><a href="#" class="footer__link">Lorem ipsum</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">dolor</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">sit amet</a></li>
+              <li class="footer__item"><a href="#" class="footer__link">consectetur</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
